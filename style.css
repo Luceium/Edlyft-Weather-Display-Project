@@ -2,3 +2,58 @@ html {
   height: 100%;
   width: 100%;
 }
+
+body {
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to right, LemonChiffon, lightCyan);
+}
+
+#weather-data-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.weather-display {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  min-width: 15rem;
+  padding: 10px 5px;
+  margin: 10px;
+  align-items: center;
+  border-radius: 15px;
+  background-image: linear-gradient(to left, LemonChiffon, lightCyan);
+  box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.title {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.user-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  padding: 3px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #ccf7ff;
+}
